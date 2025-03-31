@@ -9,15 +9,15 @@ from pathlib import Path
 # Configurações
 LAYER_ID = "6aa81fe2-7f17-45ff-ab50-aaf980951856"
 LAYERGROUP_ID = "ersar@96e5548e@7020d702b2897cde83e09e46e0a28682:1711979554305"
-ZOOM = 14
+ZOOM = 17
 
 # URL do mapa
 TILE_TEMPLATE = f"https://a.gusc.cartocdn.com/ersar/api/v1/map/{LAYERGROUP_ID}/{LAYER_ID}/{{z}}/{{x}}/{{y}}.grid.json"
 
 # Regiões de Portugal
 REGIONS = {
-    "portugal": {"north": 42.2, "south": 36.8, "west": -9.6, "east": -6.0},
-    #"porto": {"north": 41.2, "south": 41.1, "west": -8.7, "east": -8.5},
+    #"portugal": {"north": 42.2, "south": 36.8, "west": -9.6, "east": -6.0},
+    #"porto": {"north": 41.4000, "south": 41.0000, "west": -8.7700, "east": -8.2500}
     #"lisboa": {"north": 38.8, "south": 38.6, "west": -9.2, "east": -9.1},
 }
 
